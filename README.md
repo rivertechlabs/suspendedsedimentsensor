@@ -1,8 +1,13 @@
 # :ocean:suspended-sediment-sensor
- A 3D-printed, open-source suspended sediment sensor for river network monitoring.
- 
- This sensor is prototype 3.0. Previous prototype (2.0) is found in this [repo](https://github.com/rivertechlabs/turbiditysensor).
+This sensor is prototype 3.0. Previous prototype (2.0) is found in this [repo](https://github.com/rivertechlabs/turbiditysensor).
 
+**Improvements on this version:**
+- :stuck_out_tongue_winking_eye: Entirely 3D printed design, so no need to beg a technician for help
+- :racehorse: Longer battery life
+- :dancers: Custom printed circuit board (PCB) as an [Arduino MRK WAN 1310](https://store-usa.arduino.cc/products/arduino-mkr-wan-1310) shield for an easier and cleaner assembly with a more durable design 
+
+-----------------------------------------
+A 3D-printed, open-source suspended sediment sensor for river network monitoring.
 ## Introduction
 This repo is dedicated to the open-source turbidity sensor. More info can be found here:
 - https://rivertechlabs.org/
@@ -38,7 +43,3 @@ The .3mf files were exported as .gcode files and then printed on a Prusa I3 Mk3 
 
 ## Contact
 For questions, please email me at droujko@ifu.baug.ethz.ch or @rivertechjess on Twitter :bird:
-
------------------------------------------
-## Prototype 1.0
-This repo also contains the CAD files for prototype 1.0 of the turbidity sensor (you can use this to 3D print the device in a school project)
