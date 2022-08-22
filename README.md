@@ -1,5 +1,6 @@
 # :ocean:suspended-sediment-sensor
- A 3D-printed, open-source suspended sediment sensor for river network monitoring
+ A 3D-printed, open-source suspended sediment sensor for river network monitoring.
+ 
  This sensor is prototype 3.0. Previous prototype (2.0) is found in this [repo](https://github.com/rivertechlabs/turbiditysensor).
 
 ## Introduction
