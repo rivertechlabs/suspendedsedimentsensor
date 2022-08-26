@@ -1,4 +1,4 @@
-# :ocean:suspendedsedimentsensor
+# :ocean:suspended sediment sensor
 This sensor is prototype 3.0. Previous prototype (2.0) is found in this [repo](https://github.com/rivertechlabs/turbiditysensor) (new repo necause I consider the two versions different enough).
 
 **Improvements on this version:**
