@@ -1,0 +1,104 @@
+*************************************************************
+FileName = IRDiode.GBR
+AutoAperture = True
+*************************************************************
+Generating : Bottom Solder
+      File : IRDiode.GBS
+
+    Adding Layer      : Bottom Solder
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D12
+    D13
+    D14
+*************************************************************
+
+*************************************************************
+Generating : Bottom Overlay
+      File : IRDiode.GBO
+
+    Adding Layer      : Bottom Overlay
+
+
+Used DCodes :
+    D10
+    D15
+    D19
+*************************************************************
+
+*************************************************************
+Generating : Keep-Out Layer
+      File : IRDiode.GKO
+
+    Adding Layer      : Keep-Out Layer
+
+
+Used DCodes :
+    D15
+*************************************************************
+
+*************************************************************
+Generating : Top Solder
+      File : IRDiode.GTS
+
+    Adding Layer      : Top Solder
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D12
+    D13
+    D14
+*************************************************************
+
+*************************************************************
+Generating : Top Layer
+      File : IRDiode.GTL
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D15
+    D16
+    D17
+    D18
+*************************************************************
+
+*************************************************************
+Generating : Bottom Layer
+      File : IRDiode.GBL
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D16
+    D17
+    D18
+*************************************************************
+
+*************************************************************
+Generating : Top Overlay
+      File : IRDiode.GTO
+
+    Adding Layer      : Top Overlay
+
+
+Used DCodes :
+    D10
+    D11
+*************************************************************
+

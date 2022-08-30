@@ -1,0 +1,765 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid 892f5e3b-54f5-40fe-9001-ad92e686d974)
+
+  (paper "A3")
+
+  (title_block
+    (title "LightSensor_PCB")
+    (rev "1")
+  )
+
+  (lib_symbols
+    (symbol "LightSensor_PCB-altium-import:0_5-146130-1" (in_bom yes) (on_board yes)
+      (property "Reference" "" (id 0) (at 0 0 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "0_5-146130-1" (id 1) (at 0 0 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (id 2) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (id 3) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "AMPMODU 4 Position Surface Mount Dual Row Straight 2.54 mm Breakaway Header" (id 4) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "C:_Users_amzethz_Documents_GitHub_smartwatersensor_SmartWaterSensor_SnapEDA_Library_5-146130-1.PcbLib_TE_5-146130-1" (id 5) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "0_5-146130-1_1_0"
+        (rectangle (start 5.08 5.08) (end -5.08 -2.54)
+          (stroke (width 0.254) (type default) (color 0 0 0 0))
+          (fill (type background))
+        )
+        (pin passive line (at -7.62 0 0) (length 2.54)
+          (name "3" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 7.62 0 180) (length 2.54)
+          (name "4" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at -7.62 2.54 0) (length 2.54)
+          (name "1" (effects (font (size 1.27 1.27))))
+          (number "3" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 7.62 2.54 180) (length 2.54)
+          (name "2" (effects (font (size 1.27 1.27))))
+          (number "4" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "LightSensor_PCB-altium-import:0_AMS-TSL25911-FN-6" (in_bom yes) (on_board yes)
+      (property "Reference" "" (id 0) (at 0 0 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "0_AMS-TSL25911-FN-6" (id 1) (at 0 0 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (id 2) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (id 3) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Light-to-Digital Converter with I2C Interface, 2.7 to 3.6 V, -30 to 70 degC, FN-6, Pb-Free, Reel" (id 4) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "AMS-FN-6-2400X2000DE_V" (id 5) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "0_AMS-TSL25911-FN-6_1_0"
+        (rectangle (start 15.24 0) (end 0 -15.24)
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type background))
+        )
+        (pin input clock (at -5.08 -2.54 0) (length 5.08)
+          (name "SCL" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin open_collector line (at 20.32 -2.54 180) (length 5.08)
+          (name "~{INT" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+        (pin power_in line (at 20.32 -12.7 180) (length 5.08)
+          (name "GND" (effects (font (size 1.27 1.27))))
+          (number "3" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 20.32 -7.62 180) (length 5.08)
+          (name "NC" (effects (font (size 1.27 1.27))))
+          (number "4" (effects (font (size 1.27 1.27))))
+        )
+        (pin power_in line (at -5.08 -12.7 0) (length 5.08)
+          (name "VDD" (effects (font (size 1.27 1.27))))
+          (number "5" (effects (font (size 1.27 1.27))))
+        )
+        (pin bidirectional line (at -5.08 -5.08 0) (length 5.08)
+          (name "SDA" (effects (font (size 1.27 1.27))))
+          (number "6" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "LightSensor_PCB-altium-import:3_CAP" (in_bom yes) (on_board yes)
+      (property "Reference" "" (id 0) (at 0 0 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "3_CAP" (id 1) (at 0 0 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (id 2) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (id 3) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "CAPC2013X135X45LL10T25" (id 4) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "3_CAP_1_0"
+        (polyline
+          (pts
+            (xy -4.572 -0.762)
+            (xy -0.508 -0.762)
+          )
+          (stroke (width 0.254) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -2.54 -2.54)
+            (xy -2.54 -1.778)
+          )
+          (stroke (width 0.254) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -2.54 0)
+            (xy -2.54 -0.762)
+          )
+          (stroke (width 0.254) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -0.508 -1.778)
+            (xy -4.572 -1.778)
+          )
+          (stroke (width 0.254) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (pin passive line (at -2.54 2.54 270) (length 2.54)
+          (name "1" (effects (font (size 0 0))))
+          (number "1" (effects (font (size 0 0))))
+        )
+        (pin passive line (at -2.54 -5.08 90) (length 2.54)
+          (name "2" (effects (font (size 0 0))))
+          (number "2" (effects (font (size 0 0))))
+        )
+      )
+    )
+    (symbol "LightSensor_PCB-altium-import:GND_PCB_LS" (power) (in_bom yes) (on_board yes)
+      (property "Reference" "#PWR" (id 0) (at 0 0 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "GND_PCB_LS" (id 1) (at 0 3.81 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (id 2) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (id 3) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "power-flag" (id 4) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Power symbol creates a global label with name 'GND_PCB_LS'" (id 5) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "GND_PCB_LS_0_0"
+        (polyline
+          (pts
+            (xy -1.27 -2.54)
+            (xy 1.27 -2.54)
+          )
+          (stroke (width 0.254) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy 0 -2.54)
+          )
+          (stroke (width 0.254) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (pin power_in line (at 0 0 0) (length 0) hide
+          (name "GND_PCB_LS" (effects (font (size 1.27 1.27))))
+          (number "" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "LightSensor_PCB-altium-import:VCC_3V3_PCB_LS" (power) (in_bom yes) (on_board yes)
+      (property "Reference" "#PWR" (id 0) (at 0 0 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "VCC_3V3_PCB_LS" (id 1) (at 0 3.81 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (id 2) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (id 3) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "power-flag" (id 4) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Power symbol creates a global label with name 'VCC_3V3_PCB_LS'" (id 5) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "VCC_3V3_PCB_LS_0_0"
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy 0 -1.27)
+          )
+          (stroke (width 0.254) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -0.635 -1.27)
+            (xy 0.635 -1.27)
+            (xy 0 -2.54)
+            (xy -0.635 -1.27)
+          )
+          (stroke (width 0.254) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (pin power_in line (at 0 0 0) (length 0) hide
+          (name "VCC_3V3_PCB_LS" (effects (font (size 1.27 1.27))))
+          (number "" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+  )
+
+  (junction (at 144.78 116.6622) (diameter 0) (color 0 0 0 0)
+    (uuid fe43cb30-bef4-488a-8c8e-f892c14961c5)
+  )
+
+  (no_connect (at 177.8 106.5022) (uuid 517f9616-372c-4989-8d38-1670c44fd44e))
+  (no_connect (at 177.8 111.5822) (uuid 778c259e-bcfe-4a7f-bee6-85e9200a7d77))
+
+  (wire (pts (xy 60.96 139.5222) (xy 81.28 139.5222))
+    (stroke (width 0.254) (type default) (color 0 0 0 0))
+    (uuid 018de4a5-c3ff-4c3b-8660-ec70178323cd)
+  )
+  (wire (pts (xy 152.4 106.5022) (xy 129.54 106.5022))
+    (stroke (width 0.254) (type default) (color 0 0 0 0))
+    (uuid 0e868f1b-056c-4eb5-8e7c-1a86f9cbef2b)
+  )
+  (polyline (pts (xy 388.62 274.1422) (xy 261.62 274.1422))
+    (stroke (width 0) (type solid) (color 0 0 0 0))
+    (uuid 131a56eb-bc10-4335-93fa-e42d7fa761af)
+  )
+
+  (wire (pts (xy 177.8 121.7422) (xy 177.8 116.6622))
+    (stroke (width 0.254) (type default) (color 0 0 0 0))
+    (uuid 16157a44-576a-46e1-a449-f84c03885b9c)
+  )
+  (wire (pts (xy 81.28 136.9822) (xy 58.42 136.9822))
+    (stroke (width 0.254) (type default) (color 0 0 0 0))
+    (uuid 19e225a8-be96-45ce-b778-4cb0e282d22a)
+  )
+  (polyline (pts (xy 332.74 274.1422) (xy 332.74 289.3822))
+    (stroke (width 0) (type solid) (color 0 0 0 0))
+    (uuid 1dedc3e8-8803-406a-a6c3-ac6b9bbc3265)
+  )
+  (polyline (pts (xy 363.22 289.3822) (xy 261.62 289.3822))
+    (stroke (width 0) (type solid) (color 0 0 0 0))
+    (uuid 398a68b0-6c28-4d7d-a5f2-fc591f25d443)
+  )
+
+  (wire (pts (xy 152.4 109.0422) (xy 129.54 109.0422))
+    (stroke (width 0.254) (type default) (color 0 0 0 0))
+    (uuid 597656d4-fa2f-4ca9-8cbc-29f0efd821b0)
+  )
+  (polyline (pts (xy 261.62 274.1422) (xy 261.62 291.9222))
+    (stroke (width 0) (type solid) (color 0 0 0 0))
+    (uuid 6ae0ab4c-0c73-4d23-be02-3b51d8fba7b5)
+  )
+
+  (wire (pts (xy 144.78 116.6622) (xy 152.4 116.6622))
+    (stroke (width 0.254) (type default) (color 0 0 0 0))
+    (uuid 799ecc4f-e206-458e-8721-761e2c495c1d)
+  )
+  (polyline (pts (xy 306.07 280.4922) (xy 306.07 289.3822))
+    (stroke (width 0) (type solid) (color 0 0 0 0))
+    (uuid 91f58f55-1330-49e2-9732-1118a792a205)
+  )
+  (polyline (pts (xy 306.07 285.5722) (xy 332.74 285.5722))
+    (stroke (width 0) (type solid) (color 0 0 0 0))
+    (uuid a0a7f9dc-341d-4730-86d6-f651172b94fc)
+  )
+  (polyline (pts (xy 261.62 280.4922) (xy 332.74 280.4922))
+    (stroke (width 0) (type solid) (color 0 0 0 0))
+    (uuid cc5c40ac-5893-4d4c-9095-87a738b37205)
+  )
+
+  (wire (pts (xy 109.22 136.9822) (xy 96.52 136.9822))
+    (stroke (width 0.254) (type default) (color 0 0 0 0))
+    (uuid d15abcab-650b-4319-b326-36ceba39aaa2)
+  )
+  (wire (pts (xy 96.52 139.5222) (xy 104.14 139.5222))
+    (stroke (width 0.254) (type default) (color 0 0 0 0))
+    (uuid f76248aa-d97a-46bd-bcd6-37dd74d17992)
+  )
+  (polyline (pts (xy 363.22 289.3822) (xy 388.62 289.3822))
+    (stroke (width 0) (type solid) (color 0 0 0 0))
+    (uuid f7f49f47-d712-47df-ac83-63c80c8cbd08)
+  )
+
+  (image (at 358.8445 281.5755) (scale 1.70426)
+    (uuid 2c460b15-16c4-4759-9daa-8aa987895710)
+    (data
+      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
+      RU5ErkJggg==
+    )
+  )
+
+  (text "Project:" (at 263.398 285.8262 180)
+    (effects (font (size 1.397 1.397)) (justify left bottom))
+    (uuid 02179e28-39d5-418c-ba57-57b4583aa33d)
+  )
+  (text "${#}" (at 314.96 289.3822 180)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 19de9247-ef2e-43ed-b694-d56ac9ab4fc4)
+  )
+  (text "${TITLE}" (at 263.398 280.2382 180)
+    (effects (font (size 2.032 2.032) bold italic) (justify left bottom))
+    (uuid 25ae2e95-3cd2-42aa-b15b-4279777f8d60)
+  )
+  (text "${PROJEKTNAME}" (at 273.05 285.8262 180)
+    (effects (font (size 1.524 1.524)) (justify left bottom))
+    (uuid 28c61d16-2b4e-4780-851b-ba1ba04555e7)
+  )
+  (text "Size:" (at 307.34 285.5722 180)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 295459c2-4238-4a47-ac27-0fc6f9bc960d)
+  )
+  (text "Drawn by:" (at 263.398 289.3822 180)
+    (effects (font (size 1.143 1.143)) (justify left bottom))
+    (uuid 3fdeca5c-728b-4bb6-ba97-0c0f38108da3)
+  )
+  (text "${FILENAME}" (at 289.814 291.9222 180)
+    (effects (font (size 1.143 1.143)) (justify left bottom))
+    (uuid 4a58e1b8-9e39-473d-99d0-287873914725)
+  )
+  (text "${CURRENT_DATE}" (at 269.24 291.9222 180)
+    (effects (font (size 1.143 1.143)) (justify left bottom))
+    (uuid 5484d9b7-3110-457d-a883-b57d2ec0b34b)
+  )
+  (text "Date:" (at 263.398 291.9222 180)
+    (effects (font (size 1.143 1.143)) (justify left bottom))
+    (uuid 7377ec43-845c-4e5d-8d7b-0ad33a0e02cf)
+  )
+  (text "Rev.:" (at 318.008 285.5722 180)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 73f8c168-c276-45bc-9b03-5a8eb9e21313)
+  )
+  (text "Sheet" (at 307.34 289.3822 180)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 73f9234d-861f-4afc-9d84-f84e73c62276)
+  )
+  (text "${DRAWNBY}" (at 273.558 289.3822 180)
+    (effects (font (size 1.143 1.143)) (justify left bottom))
+    (uuid 7a59d21c-55c7-4f2f-9017-7941829ce984)
+  )
+  (text "of" (at 318.77 289.3822 180)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid a51a2162-d7d4-4b0b-8d3d-2a7c0ab2d46c)
+  )
+  (text "A3" (at 312.928 285.5722 180)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid ab5b6a88-39a5-4c82-af9c-276eaac5e0e7)
+  )
+  (text "File:" (at 285.242 291.9222 180)
+    (effects (font (size 1.143 1.143)) (justify left bottom))
+    (uuid e33c391d-b4aa-4893-965c-df2d6a8205d9)
+  )
+  (text "${##}" (at 321.31 289.3822 180)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid f0da7f3e-3914-4c34-a30d-6f308574b11a)
+  )
+  (text "${REVISION}" (at 324.104 285.8262 180)
+    (effects (font (size 1.524 1.524)) (justify left bottom))
+    (uuid f4374114-fc59-4e36-a2da-0621dfb45449)
+  )
+
+  (label "SCL_PCB" (at 58.42 136.9822 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 1d05ae8d-4186-4401-b739-ad0ae445bf45)
+  )
+  (label "SDA_PCB" (at 129.54 109.0422 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 2fb36cc0-84c6-4501-9b93-9c9f4460d53a)
+  )
+  (label "SCL_PCB" (at 129.54 106.5022 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 5269c326-6a7e-4a41-93bd-135d1afb7881)
+  )
+  (label "SDA_PCB" (at 104.14 139.5222 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid a7df6c13-6543-4825-9514-cbbcf80810d3)
+  )
+
+  (symbol (lib_id "LightSensor_PCB-altium-import:GND_PCB_LS") (at 144.78 124.2822 0) (unit 1)
+    (in_bom yes) (on_board yes)
+    (uuid 0431caf8-251f-4318-84fa-5450fdb0c35b)
+    (property "Reference" "#PWR?" (id 0) (at 144.78 124.2822 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND_PCB_LS" (id 1) (at 144.78 128.0922 0))
+    (property "Footprint" "" (id 2) (at 144.78 124.2822 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 144.78 124.2822 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "" (uuid 5d3ed546-3528-4a53-a53d-900b0f8dabfd))
+  )
+
+  (symbol (lib_id "LightSensor_PCB-altium-import:GND_PCB_LS") (at 60.96 139.5222 0) (unit 1)
+    (in_bom yes) (on_board yes)
+    (uuid 7d8849d2-b7ef-4608-86d6-ca77489e00a6)
+    (property "Reference" "#PWR?" (id 0) (at 60.96 139.5222 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND_PCB_LS" (id 1) (at 60.96 143.3322 0))
+    (property "Footprint" "" (id 2) (at 60.96 139.5222 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 60.96 139.5222 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "" (uuid 2b5fdf12-9516-4e79-9c46-dae16f61394f))
+  )
+
+  (symbol (lib_id "LightSensor_PCB-altium-import:0_5-146130-1") (at 88.9 139.5222 0) (unit 1)
+    (in_bom yes) (on_board yes)
+    (uuid 983e8e90-d23c-4415-998b-9afd9a3f78f8)
+    (property "Reference" "J1" (id 0) (at 83.82 134.4422 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Value" "" (id 1) (at 83.82 144.6022 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Footprint" "C:_Users_amzethz_Documents_GitHub_smartwatersensor_SmartWaterSensor_SnapEDA_Library_5-146130-1.PcbLib_TE_5-146130-1" (id 2) (at 88.9 139.5222 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 88.9 139.5222 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "PRICE" "None" (id 4) (at 80.772 134.4422 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "MF" "{'manufacturer': u'TE Connectivity'}" (id 5) (at 80.772 134.4422 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "PACKAGE" "None" (id 6) (at 80.772 134.4422 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "AVAILABILITY" "Unavailable" (id 7) (at 80.772 134.4422 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "ALTIUM_VALUE" "*" (id 8) (at 80.772 134.4422 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "MP" "5-146130-1" (id 9) (at 80.772 134.4422 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (pin "1" (uuid d1a7b95c-9aff-427f-b4a4-25a269647e25))
+    (pin "2" (uuid d6980c74-b2e1-469f-8eb0-c236977f2c97))
+    (pin "3" (uuid b8f22b05-49c9-4bc5-b188-c3215fac8ae1))
+    (pin "4" (uuid 0ba651ea-541b-4d6d-8369-1a64a9f6dafb))
+  )
+
+  (symbol (lib_id "LightSensor_PCB-altium-import:GND_PCB_LS") (at 177.8 121.7422 0) (unit 1)
+    (in_bom yes) (on_board yes)
+    (uuid b1f3e392-5473-429e-979e-10b4703ae0af)
+    (property "Reference" "#PWR?" (id 0) (at 177.8 121.7422 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND_PCB_LS" (id 1) (at 177.8 125.5522 0))
+    (property "Footprint" "" (id 2) (at 177.8 121.7422 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 177.8 121.7422 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "" (uuid cbec87f7-7721-4b6c-a620-eecf92f6ec4c))
+  )
+
+  (symbol (lib_id "LightSensor_PCB-altium-import:3_CAP") (at 147.32 119.2022 0) (unit 1)
+    (in_bom yes) (on_board yes)
+    (uuid bb4833f1-da40-45f1-88e7-d84f779b3705)
+    (property "Reference" "C1" (id 0) (at 147.066 121.4882 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Value" "" (id 1) (at 147.066 124.0282 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Footprint" "CAPC2013X135X45LL10T25" (id 2) (at 147.32 119.2022 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 147.32 119.2022 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MANUFACTURER" "Murata" (id 4) (at 142.494 116.1542 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "PART NUMBER" "GRM21BR71H105KA12L" (id 5) (at 142.494 116.1542 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (pin "1" (uuid be5a1f44-f084-4042-8253-b626c36d69c4))
+    (pin "2" (uuid afd133ac-8ca9-4017-a07b-d7fae4f2c5e5))
+  )
+
+  (symbol (lib_id "LightSensor_PCB-altium-import:0_AMS-TSL25911-FN-6") (at 157.48 103.9622 0) (unit 1)
+    (in_bom yes) (on_board yes)
+    (uuid d56c20f9-ba1e-4a6b-9c9d-ba23b7dab9be)
+    (property "Reference" "U1" (id 0) (at 157.48 103.9622 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Value" "" (id 1) (at 157.48 121.7422 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Footprint" "AMS-FN-6-2400X2000DE_V" (id 2) (at 157.48 103.9622 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 157.48 103.9622 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "COMPONENTLINK2DESCRIPTION" "Datasheet" (id 4) (at 151.892 100.1522 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "COMPONENTLINK1URL" "www.ams.com" (id 5) (at 151.892 100.1522 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "INTERFACE" "I2C - Vdd" (id 6) (at 151.892 100.1522 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "MOUNTING TECHNOLOGY" "Surface Mount" (id 7) (at 151.892 100.1522 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "MANUFACTURER" "AMS" (id 8) (at 151.892 100.1522 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "PACKAGEREFERENCE" "FN-6" (id 9) (at 151.892 100.1522 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "PACKAGEVERSION" "TAOS059Q, 11/2009" (id 10) (at 151.892 100.1522 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "COMPONENTLINK2URL" "http://www.ams.com/eng/content/download/389383/1251117/221235" (id 11) (at 151.892 100.1522 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "SUPPLY VOLTAGE (V)" "2.7 - 3.6" (id 12) (at 151.892 100.1522 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "MAXIMUM LUX" "88K" (id 13) (at 151.892 100.1522 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "PROGRAMMABLE" "Gain, Integration Time, Interrupt" (id 14) (at 151.892 100.1522 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "PARTNUMBER" "TSL25911FN" (id 15) (at 151.892 100.1522 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "PACKAGEDESCRIPTION" "6-Pin Dual Flat No-Lead, 2.4 x 2 mm Body, 0.65 mm Pitch" (id 16) (at 151.892 100.1522 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "COMPONENTLINK1DESCRIPTION" "Manufacturer URL" (id 17) (at 151.892 100.1522 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (pin "1" (uuid f7eba95b-3e61-4f0e-9127-644e857606b0))
+    (pin "2" (uuid 83f3e104-c0ef-4a6e-af65-adb2194cc994))
+    (pin "3" (uuid ae76cfd8-946e-461d-a52f-7bc3b8aaedf6))
+    (pin "4" (uuid 480c791a-fed1-4a5f-a3c7-363fa27af5aa))
+    (pin "5" (uuid 684b625a-102f-42a1-a13d-0acaefc1aec3))
+    (pin "6" (uuid 6820ff7c-6ba5-44bd-a295-408a82976a53))
+  )
+
+  (symbol (lib_id "LightSensor_PCB-altium-import:VCC_3V3_PCB_LS") (at 144.78 116.6622 180) (unit 1)
+    (in_bom yes) (on_board yes)
+    (uuid d95a5b01-f689-4edc-93c9-9ee70b9ccdf3)
+    (property "Reference" "#PWR?" (id 0) (at 144.78 116.6622 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "VCC_3V3_PCB_LS" (id 1) (at 144.78 112.8522 0))
+    (property "Footprint" "" (id 2) (at 144.78 116.6622 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 144.78 116.6622 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "" (uuid 8824f282-5ef9-4040-ac44-a1c4890f9940))
+  )
+
+  (symbol (lib_id "LightSensor_PCB-altium-import:VCC_3V3_PCB_LS") (at 109.22 136.9822 180) (unit 1)
+    (in_bom yes) (on_board yes)
+    (uuid e039a1d0-019d-4e21-95dd-39088bbed6ae)
+    (property "Reference" "#PWR?" (id 0) (at 109.22 136.9822 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "VCC_3V3_PCB_LS" (id 1) (at 109.22 133.1722 0))
+    (property "Footprint" "" (id 2) (at 109.22 136.9822 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 109.22 136.9822 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "" (uuid f16f6ab7-46f8-4ee1-afa9-c52821b5d0ba))
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+
+  (symbol_instances
+    (path "/0431caf8-251f-4318-84fa-5450fdb0c35b"
+      (reference "#PWR?") (unit 1) (value "GND_PCB_LS") (footprint "")
+    )
+    (path "/7d8849d2-b7ef-4608-86d6-ca77489e00a6"
+      (reference "#PWR?") (unit 1) (value "GND_PCB_LS") (footprint "")
+    )
+    (path "/b1f3e392-5473-429e-979e-10b4703ae0af"
+      (reference "#PWR?") (unit 1) (value "GND_PCB_LS") (footprint "")
+    )
+    (path "/d95a5b01-f689-4edc-93c9-9ee70b9ccdf3"
+      (reference "#PWR?") (unit 1) (value "VCC_3V3_PCB_LS") (footprint "")
+    )
+    (path "/e039a1d0-019d-4e21-95dd-39088bbed6ae"
+      (reference "#PWR?") (unit 1) (value "VCC_3V3_PCB_LS") (footprint "")
+    )
+    (path "/bb4833f1-da40-45f1-88e7-d84f779b3705"
+      (reference "C1") (unit 1) (value "1uF") (footprint "CAPC2013X135X45LL10T25")
+    )
+    (path "/983e8e90-d23c-4415-998b-9afd9a3f78f8"
+      (reference "J1") (unit 1) (value "5-146130-1") (footprint "C:_Users_amzethz_Documents_GitHub_smartwatersensor_SmartWaterSensor_SnapEDA_Library_5-146130-1.PcbLib_TE_5-146130-1")
+    )
+    (path "/d56c20f9-ba1e-4a6b-9c9d-ba23b7dab9be"
+      (reference "U1") (unit 1) (value "TSL25911FN") (footprint "AMS-FN-6-2400X2000DE_V")
+    )
+  )
+)

@@ -1,0 +1,109 @@
+*************************************************************
+FileName = PressureSensor.GBR
+AutoAperture = True
+*************************************************************
+Generating : Top Layer
+      File : PressureSensor.GTL
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D12
+    D13
+    D16
+    D17
+    D18
+*************************************************************
+
+*************************************************************
+Generating : Bottom Layer
+      File : PressureSensor.GBL
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D16
+    D17
+    D18
+    D19
+    D20
+*************************************************************
+
+*************************************************************
+Generating : Top Overlay
+      File : PressureSensor.GTO
+
+    Adding Layer      : Top Overlay
+
+
+Used DCodes :
+    D10
+    D11
+*************************************************************
+
+*************************************************************
+Generating : Bottom Overlay
+      File : PressureSensor.GBO
+
+    Adding Layer      : Bottom Overlay
+
+
+Used DCodes :
+    D16
+    D23
+    D24
+*************************************************************
+
+*************************************************************
+Generating : Keep-Out Layer
+      File : PressureSensor.GKO
+
+    Adding Layer      : Keep-Out Layer
+
+
+Used DCodes :
+    D16
+*************************************************************
+
+*************************************************************
+Generating : Top Solder
+      File : PressureSensor.GTS
+
+    Adding Layer      : Top Solder
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D12
+    D13
+    D14
+    D15
+*************************************************************
+
+*************************************************************
+Generating : Bottom Solder
+      File : PressureSensor.GBS
+
+    Adding Layer      : Bottom Solder
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D14
+    D15
+    D21
+    D22
+*************************************************************
+

@@ -1,0 +1,12 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : PCB Document [IRDiode.PcbDoc]
+   Generated File[IRDiode.TXT]
+   Generated File[IRDiode.LDP]
+   Generated File[IRDiode.DRR]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 16:08:58 On 10/06/2022

@@ -1,0 +1,12 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : PCB Document [BOB.PcbDoc]
+   Generated File[BOB.TXT]
+   Generated File[BOB.LDP]
+   Generated File[BOB.DRR]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 23:10:44 On 23/08/2022

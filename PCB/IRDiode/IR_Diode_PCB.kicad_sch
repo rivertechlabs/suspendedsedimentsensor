@@ -1,0 +1,520 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid 08bf132e-26b7-4ca3-ac2e-483e6afdc6cc)
+
+  (paper "A3")
+
+  (title_block
+    (title "IR Diode PCB")
+    (rev "1")
+  )
+
+  (lib_symbols
+    (symbol "IR_Diode_PCB-altium-import:0_mirrored_WE-CN-1P-M-R2" (in_bom yes) (on_board yes)
+      (property "Reference" "" (id 0) (at 0 0 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "0_mirrored_WE-CN-1P-M-R2" (id 1) (at 0 0 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (id 2) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (id 3) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Male Locking Header WR-WTB, THT, Vertical, pitch 2.54 mm, 1 x 2 position" (id 4) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "61900211121" (id 5) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "0_mirrored_WE-CN-1P-M-R2_1_0"
+        (rectangle (start -1.778 -1.778) (end -3.302 -3.302)
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type outline))
+        )
+        (polyline
+          (pts
+            (xy 0 -5.08)
+            (xy -1.778 -5.08)
+          )
+          (stroke (width 0.254) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 -2.54)
+            (xy -1.778 -2.54)
+          )
+          (stroke (width 0.254) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -5.08 0)
+            (xy 0 0)
+            (xy 0 -7.62)
+            (xy -5.08 -7.62)
+            (xy -5.08 0)
+          )
+          (stroke (width 0.254) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (pin passive line (at 5.08 -2.54 180) (length 5.08)
+          (name "1" (effects (font (size 0 0))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 5.08 -5.08 180) (length 5.08)
+          (name "2" (effects (font (size 0 0))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "IR_Diode_PCB-altium-import:3_WE-LED_K1A2-2" (in_bom yes) (on_board yes)
+      (property "Reference" "" (id 0) (at 0 0 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "3_WE-LED_K1A2-2" (id 1) (at 0 0 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (id 2) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (id 3) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "TSHG6200" (id 4) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "Type{space}5mm" (id 5) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "3_WE-LED_K1A2-2_1_0"
+        (polyline
+          (pts
+            (xy 2.54 -3.556)
+            (xy 4.318 -5.334)
+          )
+          (stroke (width 0.254) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 2.54 -2.54)
+            (xy -2.54 -2.54)
+          )
+          (stroke (width 0.254) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 3.556 -2.54)
+            (xy 5.334 -4.318)
+          )
+          (stroke (width 0.254) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -2.54 0)
+            (xy 0 -2.54)
+            (xy 2.54 0)
+            (xy -2.54 0)
+          )
+          (stroke (width 0.254) (type default) (color 0 0 0 0))
+          (fill (type outline))
+        )
+        (polyline
+          (pts
+            (xy 4.318 -5.334)
+            (xy 3.81 -4.318)
+            (xy 3.302 -4.826)
+            (xy 4.318 -5.334)
+          )
+          (stroke (width 0.254) (type default) (color 0 0 0 0))
+          (fill (type outline))
+        )
+        (polyline
+          (pts
+            (xy 5.334 -4.318)
+            (xy 4.826 -3.302)
+            (xy 4.318 -3.81)
+            (xy 5.334 -4.318)
+          )
+          (stroke (width 0.254) (type default) (color 0 0 0 0))
+          (fill (type outline))
+        )
+        (pin passive line (at 0 -7.62 90) (length 5.08)
+          (name "K" (effects (font (size 0 0))))
+          (number "1" (effects (font (size 0 0))))
+        )
+        (pin passive line (at 0 5.08 270) (length 5.08)
+          (name "A" (effects (font (size 0 0))))
+          (number "2" (effects (font (size 0 0))))
+        )
+      )
+    )
+  )
+
+
+  (polyline (pts (xy 332.74 274.1422) (xy 332.74 289.3822))
+    (stroke (width 0) (type solid) (color 0 0 0 0))
+    (uuid 004114b5-8fbd-47e6-9bda-544107e5c81f)
+  )
+  (polyline (pts (xy 388.62 274.1422) (xy 261.62 274.1422))
+    (stroke (width 0) (type solid) (color 0 0 0 0))
+    (uuid 216c797d-6eb1-40fd-8e1a-47ed3565529f)
+  )
+  (polyline (pts (xy 261.62 280.4922) (xy 332.74 280.4922))
+    (stroke (width 0) (type solid) (color 0 0 0 0))
+    (uuid 263d87c0-c247-433c-ba3e-3094e359d030)
+  )
+  (polyline (pts (xy 363.22 289.3822) (xy 261.62 289.3822))
+    (stroke (width 0) (type solid) (color 0 0 0 0))
+    (uuid 4a32aac2-e90d-4d42-aaa8-f762b580208f)
+  )
+  (polyline (pts (xy 363.22 289.3822) (xy 388.62 289.3822))
+    (stroke (width 0) (type solid) (color 0 0 0 0))
+    (uuid 64bbbf4a-9d39-48a8-afe2-4e92edd1c58f)
+  )
+
+  (wire (pts (xy 106.68 175.0822) (xy 111.76 175.0822))
+    (stroke (width 0.254) (type default) (color 0 0 0 0))
+    (uuid 68e8b595-a8f7-49d9-814d-5cceddf1c8c1)
+  )
+  (wire (pts (xy 111.76 177.6222) (xy 106.68 177.6222))
+    (stroke (width 0.254) (type default) (color 0 0 0 0))
+    (uuid 78665e05-1264-422f-9c34-d2d1877355ee)
+  )
+  (wire (pts (xy 111.76 175.0822) (xy 111.76 170.0022))
+    (stroke (width 0.254) (type default) (color 0 0 0 0))
+    (uuid 850becdb-297b-4e2a-9f11-20e7a700a448)
+  )
+  (polyline (pts (xy 306.07 280.4922) (xy 306.07 289.3822))
+    (stroke (width 0) (type solid) (color 0 0 0 0))
+    (uuid 90665c2a-7005-4951-85f6-2287b8919f29)
+  )
+
+  (wire (pts (xy 111.76 170.0022) (xy 127 170.0022))
+    (stroke (width 0.254) (type default) (color 0 0 0 0))
+    (uuid c8f09321-6560-4036-b191-9f39a4cba6cf)
+  )
+  (wire (pts (xy 127 182.7022) (xy 111.76 182.7022))
+    (stroke (width 0.254) (type default) (color 0 0 0 0))
+    (uuid d6bb8268-9f16-4487-84d0-7edb11d9362f)
+  )
+  (wire (pts (xy 111.76 182.7022) (xy 111.76 177.6222))
+    (stroke (width 0.254) (type default) (color 0 0 0 0))
+    (uuid e1f12fc4-dfe8-4594-a3c9-10e84ba968d2)
+  )
+  (polyline (pts (xy 261.62 274.1422) (xy 261.62 291.9222))
+    (stroke (width 0) (type solid) (color 0 0 0 0))
+    (uuid eb3dd987-2285-442b-842b-d345251ffde7)
+  )
+  (polyline (pts (xy 306.07 285.5722) (xy 332.74 285.5722))
+    (stroke (width 0) (type solid) (color 0 0 0 0))
+    (uuid f88507b3-09c5-4ed7-a475-2ddabf0a52a2)
+  )
+
+  (image (at 358.8445 281.5755) (scale 1.70426)
+    (uuid 964b3f37-f5ff-4dcc-91a5-1ae7d2f99668)
+    (data
+      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
+      RU5ErkJggg==
+    )
+  )
+
+  (text "${#}" (at 314.96 289.3822 180)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 06c44ce0-3542-48d4-9abe-1587c3dfbc13)
+  )
+  (text "${DRAWNBY}" (at 273.558 289.3822 180)
+    (effects (font (size 1.143 1.143)) (justify left bottom))
+    (uuid 07aeba75-3443-480b-9de9-1224d6c00834)
+  )
+  (text "Project:" (at 263.398 285.8262 180)
+    (effects (font (size 1.397 1.397)) (justify left bottom))
+    (uuid 37b1a772-a462-4d95-8398-020ea24079de)
+  )
+  (text "Size:" (at 307.34 285.5722 180)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 3a51bcd6-475f-4e68-ad03-993dbc5f95a2)
+  )
+  (text "${REVISION}" (at 324.104 285.8262 180)
+    (effects (font (size 1.524 1.524)) (justify left bottom))
+    (uuid 4c6284ce-b30b-4bce-b5e9-da5de02ed079)
+  )
+  (text "Sheet" (at 307.34 289.3822 180)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 4c6c92a5-1baf-4d6d-a267-c6f8f70ce79e)
+  )
+  (text "File:" (at 285.242 291.9222 180)
+    (effects (font (size 1.143 1.143)) (justify left bottom))
+    (uuid 4d3b3f6d-9400-458a-bd4d-1b96067f54d9)
+  )
+  (text "Date:" (at 263.398 291.9222 180)
+    (effects (font (size 1.143 1.143)) (justify left bottom))
+    (uuid 7aa9cf65-666a-4786-ab2e-26ac97d1dfc2)
+  )
+  (text "of" (at 318.77 289.3822 180)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 7e7e03e5-50d7-44f6-ad5f-abc5b7aa46f2)
+  )
+  (text "${TITLE}" (at 263.398 280.2382 180)
+    (effects (font (size 2.032 2.032) bold italic) (justify left bottom))
+    (uuid 9d20f45c-bb76-4d6d-bd69-584304c4a067)
+  )
+  (text "Drawn by:" (at 263.398 289.3822 180)
+    (effects (font (size 1.143 1.143)) (justify left bottom))
+    (uuid bf62608e-e2a4-4414-a39d-6fb965330f47)
+  )
+  (text "A3" (at 312.928 285.5722 180)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid c4a3617e-3749-4b93-8b65-c027f1e80b1e)
+  )
+  (text "${CURRENT_DATE}" (at 269.24 291.9222 180)
+    (effects (font (size 1.143 1.143)) (justify left bottom))
+    (uuid d0ea7d65-24eb-4e15-a57b-1885c2136eb3)
+  )
+  (text "${PROJEKTNAME}" (at 273.05 285.8262 180)
+    (effects (font (size 1.524 1.524)) (justify left bottom))
+    (uuid e54b157c-0cd4-4455-971b-d3d3a4f7daf5)
+  )
+  (text "${FILENAME}" (at 289.814 291.9222 180)
+    (effects (font (size 1.143 1.143)) (justify left bottom))
+    (uuid e6faaff2-5f77-4de5-8415-1b2ed0ed8775)
+  )
+  (text "${##}" (at 321.31 289.3822 180)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid f1720f16-bcf0-4e17-b346-ac5695a12a9a)
+  )
+  (text "Rev.:" (at 318.008 285.5722 180)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid f93f601e-098b-472d-93d9-f0b45efe5053)
+  )
+
+  (symbol (lib_id "IR_Diode_PCB-altium-import:0_mirrored_WE-CN-1P-M-R2") (at 101.6 172.5422 0) (unit 1)
+    (in_bom yes) (on_board yes)
+    (uuid 50d14ced-8d47-4a30-bfe4-40b46a66f3cf)
+    (property "Reference" "P1" (id 0) (at 96.266 172.2882 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Value" "" (id 1) (at 96.266 182.4482 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Footprint" "61900211121" (id 2) (at 101.6 172.5422 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 101.6 172.5422 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MANUFACTURER" "Wurth Elektronik" (id 4) (at 96.266 172.2882 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "GENDER" "Male" (id 5) (at 96.266 172.2882 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "PART NUMBER" "61900211121" (id 6) (at 96.266 172.2882 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "MOUNTING TECHNOLOGY" "THT" (id 7) (at 96.266 172.2882 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "OPERATING TEMPERATURE" "-40to105degC" (id 8) (at 96.266 172.2882 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "ORIENTATION" "Vertical" (id 9) (at 96.266 172.2882 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "POSITION" "1x2" (id 10) (at 96.266 172.2882 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "PACKAGING" "Bag" (id 11) (at 96.266 172.2882 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "PACKAGE REFERENCE" "61900211121" (id 12) (at 96.266 172.2882 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "CONTACT RESISTANCE" "20mOhm" (id 13) (at 96.266 172.2882 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "MANUFACTURER URL" "http://www.we-online.de" (id 14) (at 96.266 172.2882 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "WORKING VOLTAGE" "250VAC" (id 15) (at 96.266 172.2882 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "DATASHEET URL" "https://katalog.we-online.de/em/datasheet/6190xx11121.pdf" (id 16) (at 96.266 172.2882 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "PITCH" "2.54mm" (id 17) (at 96.266 172.2882 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "PUBLISHER" "WurthElektronik" (id 18) (at 96.266 172.2882 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (pin "1" (uuid e09943e5-1ae4-449d-ae08-891aecc00b42))
+    (pin "2" (uuid e3987860-1f2b-4c8b-9f42-52dfb6824c53))
+  )
+
+  (symbol (lib_id "IR_Diode_PCB-altium-import:3_WE-LED_K1A2-2") (at 127 175.0822 0) (unit 1)
+    (in_bom yes) (on_board yes)
+    (uuid c4fd291d-6162-48c8-9aa5-ea52e28109aa)
+    (property "Reference" "LED1" (id 0) (at 132.588 177.3682 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Value" "" (id 1) (at 132.588 179.9082 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Footprint" "Type 5mm" (id 2) (at 127 175.0822 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 127 175.0822 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "COMPONENTLINK2URL" "http://katalog.we-online.de/pbs/datasheet/7448042001.pdfhttp://katalog.we-online.de/pbs/datasheet/7448042001.pdfhttp://katalog.we-online.de/pbs/datasheet/7448042001.pdfhttp://katalog.we-online.de/pbs/datasheet/151053GS03000.pdf" (id 4) (at 124.206 169.4942 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "COMPONENTLINK2DESCRIPTION" "Datasheet" (id 5) (at 124.206 169.4942 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "COMPONENTLINK1URL" "http://www.we-online.com" (id 6) (at 124.206 169.4942 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "PACKAGEREFERENCE" "Type 5mm" (id 7) (at 124.206 169.4942 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "COMPONENTLINK1DESCRIPTION" "Manufacturer URL" (id 8) (at 124.206 169.4942 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "PARTNUMBER" "151053GS03000" (id 9) (at 124.206 169.4942 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "MANUFACTURER" "Wuerth Elektronik" (id 10) (at 124.206 169.4942 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "EMITTING COLOR" "Green" (id 11) (at 124.206 169.4942 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (pin "1" (uuid 81ee62ba-04b9-4c5a-9411-39c973b84849))
+    (pin "2" (uuid 341dd477-df3e-4c32-8169-b3c8bfa40a11))
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+
+  (symbol_instances
+    (path "/c4fd291d-6162-48c8-9aa5-ea52e28109aa"
+      (reference "LED1") (unit 1) (value "TSHG6200") (footprint "Type 5mm")
+    )
+    (path "/50d14ced-8d47-4a30-bfe4-40b46a66f3cf"
+      (reference "P1") (unit 1) (value "61900211121") (footprint "61900211121")
+    )
+  )
+)

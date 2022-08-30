@@ -1,0 +1,842 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid 8ae10644-ac35-412c-bf63-0a68388acc8e)
+
+  (paper "A3")
+
+  (title_block
+    (title "PressureSensor PCB")
+    (rev "1")
+  )
+
+  (lib_symbols
+    (symbol "PressureSensor_PCB-altium-import:0_12a5185c47872775e691a69d0eb4388" (in_bom yes) (on_board yes)
+      (property "Reference" "" (id 0) (at 0 0 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "0_12a5185c47872775e691a69d0eb4388" (id 1) (at 0 0 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (id 2) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (id 3) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "MINIATURE ALTIMETER MODULE" (id 4) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "FP-MS580301BA01-00-MFG" (id 5) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "0_12a5185c47872775e691a69d0eb4388_1_0"
+        (rectangle (start 27.94 2.54) (end 5.08 -20.32)
+          (stroke (width 0.254) (type default) (color 0 0 0 0))
+          (fill (type background))
+        )
+        (pin input clock (at 0 -15.24 0) (length 5.08)
+          (name "SCLK" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin power_in line (at 33.02 -17.78 180) (length 5.08)
+          (name "GND" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+        (pin input line (at 0 -10.16 0) (length 5.08)
+          (name "~{CS" (effects (font (size 1.27 1.27))))
+          (number "3" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 33.02 -12.7 180) (length 5.08)
+          (name "NC" (effects (font (size 1.27 1.27))))
+          (number "4" (effects (font (size 1.27 1.27))))
+        )
+        (pin power_in line (at 0 0 0) (length 5.08)
+          (name "VDD" (effects (font (size 1.27 1.27))))
+          (number "5" (effects (font (size 1.27 1.27))))
+        )
+        (pin input line (at 0 -5.08 0) (length 5.08)
+          (name "PS" (effects (font (size 1.27 1.27))))
+          (number "6" (effects (font (size 1.27 1.27))))
+        )
+        (pin input line (at 0 -17.78 0) (length 5.08)
+          (name "SDI/SDA" (effects (font (size 1.27 1.27))))
+          (number "7" (effects (font (size 1.27 1.27))))
+        )
+        (pin output line (at 33.02 0 180) (length 5.08)
+          (name "SDO" (effects (font (size 1.27 1.27))))
+          (number "8" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "PressureSensor_PCB-altium-import:0_5-146130-1" (in_bom yes) (on_board yes)
+      (property "Reference" "" (id 0) (at 0 0 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "0_5-146130-1" (id 1) (at 0 0 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (id 2) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (id 3) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "AMPMODU 4 Position Surface Mount Dual Row Straight 2.54 mm Breakaway Header" (id 4) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "C:_Users_amzethz_Documents_GitHub_smartwatersensor_SmartWaterSensor_SnapEDA_Library_5-146130-1.PcbLib_TE_5-146130-1" (id 5) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "0_5-146130-1_1_0"
+        (rectangle (start 5.08 5.08) (end -5.08 -2.54)
+          (stroke (width 0.254) (type default) (color 0 0 0 0))
+          (fill (type background))
+        )
+        (pin passive line (at -7.62 0 0) (length 2.54)
+          (name "3" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 7.62 0 180) (length 2.54)
+          (name "4" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at -7.62 2.54 0) (length 2.54)
+          (name "1" (effects (font (size 1.27 1.27))))
+          (number "3" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 7.62 2.54 180) (length 2.54)
+          (name "2" (effects (font (size 1.27 1.27))))
+          (number "4" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "PressureSensor_PCB-altium-import:1_CAP" (in_bom yes) (on_board yes)
+      (property "Reference" "" (id 0) (at 0 0 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "1_CAP" (id 1) (at 0 0 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (id 2) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (id 3) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "CAPC2013X140X50NL20T25" (id 4) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "1_CAP_1_0"
+        (polyline
+          (pts
+            (xy 0.508 1.778)
+            (xy 4.572 1.778)
+          )
+          (stroke (width 0.254) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 2.54 0)
+            (xy 2.54 0.762)
+          )
+          (stroke (width 0.254) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 2.54 2.54)
+            (xy 2.54 1.778)
+          )
+          (stroke (width 0.254) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 4.572 0.762)
+            (xy 0.508 0.762)
+          )
+          (stroke (width 0.254) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (pin passive line (at 2.54 -2.54 90) (length 2.54)
+          (name "1" (effects (font (size 0 0))))
+          (number "1" (effects (font (size 0 0))))
+        )
+        (pin passive line (at 2.54 5.08 270) (length 2.54)
+          (name "2" (effects (font (size 0 0))))
+          (number "2" (effects (font (size 0 0))))
+        )
+      )
+    )
+    (symbol "PressureSensor_PCB-altium-import:GND_PS_PCB" (power) (in_bom yes) (on_board yes)
+      (property "Reference" "#PWR" (id 0) (at 0 0 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "GND_PS_PCB" (id 1) (at 0 3.81 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (id 2) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (id 3) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "power-flag" (id 4) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Power symbol creates a global label with name 'GND_PS_PCB'" (id 5) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "GND_PS_PCB_0_0"
+        (polyline
+          (pts
+            (xy -1.27 -2.54)
+            (xy 1.27 -2.54)
+          )
+          (stroke (width 0.254) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy 0 -2.54)
+          )
+          (stroke (width 0.254) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (pin power_in line (at 0 0 0) (length 0) hide
+          (name "GND_PS_PCB" (effects (font (size 1.27 1.27))))
+          (number "" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "PressureSensor_PCB-altium-import:VCC_3V3_PS_PCB" (power) (in_bom yes) (on_board yes)
+      (property "Reference" "#PWR" (id 0) (at 0 0 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "VCC_3V3_PS_PCB" (id 1) (at 0 3.81 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (id 2) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (id 3) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "power-flag" (id 4) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Power symbol creates a global label with name 'VCC_3V3_PS_PCB'" (id 5) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "VCC_3V3_PS_PCB_0_0"
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy 0 -1.27)
+          )
+          (stroke (width 0.254) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -0.635 -1.27)
+            (xy 0.635 -1.27)
+            (xy 0 -2.54)
+            (xy -0.635 -1.27)
+          )
+          (stroke (width 0.254) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (pin power_in line (at 0 0 0) (length 0) hide
+          (name "VCC_3V3_PS_PCB" (effects (font (size 1.27 1.27))))
+          (number "" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+  )
+
+  (junction (at 127 172.5422) (diameter 0) (color 0 0 0 0)
+    (uuid 554ff797-6cc5-41a6-a33c-d2ce955c9339)
+  )
+  (junction (at 142.24 172.5422) (diameter 0) (color 0 0 0 0)
+    (uuid 60d06db8-0000-4f58-8ced-60e6a12e6c4a)
+  )
+  (junction (at 144.78 172.5422) (diameter 0) (color 0 0 0 0)
+    (uuid a88e468d-5a9d-4814-846b-4f6f0a180211)
+  )
+
+  (no_connect (at 180.34 185.2422) (uuid 8c44c6fe-8b7c-4a58-b564-1eb1c2641188))
+  (no_connect (at 180.34 172.5422) (uuid a718367a-2965-4497-b760-26eb4414e76e))
+
+  (polyline (pts (xy 363.22 289.3822) (xy 388.62 289.3822))
+    (stroke (width 0) (type solid) (color 0 0 0 0))
+    (uuid 2be7b448-3d4a-473b-abfd-3a757dab264c)
+  )
+
+  (wire (pts (xy 147.32 190.3222) (xy 132.08 190.3222))
+    (stroke (width 0.254) (type default) (color 0 0 0 0))
+    (uuid 2ea63e7d-a52a-43e7-b68e-673f73f52c62)
+  )
+  (wire (pts (xy 147.32 187.7822) (xy 132.08 187.7822))
+    (stroke (width 0.254) (type default) (color 0 0 0 0))
+    (uuid 32677026-8ddf-4348-908b-c2f2522bb44e)
+  )
+  (polyline (pts (xy 306.07 280.4922) (xy 306.07 289.3822))
+    (stroke (width 0) (type solid) (color 0 0 0 0))
+    (uuid 45d9b044-d912-4dc8-873e-81ee0702ed8f)
+  )
+
+  (wire (pts (xy 127 172.5422) (xy 142.24 172.5422))
+    (stroke (width 0.254) (type default) (color 0 0 0 0))
+    (uuid 5184a894-8a55-42f0-85f6-8df39cec3a35)
+  )
+  (polyline (pts (xy 261.62 280.4922) (xy 332.74 280.4922))
+    (stroke (width 0) (type solid) (color 0 0 0 0))
+    (uuid 538bc9b1-7a21-4a07-8bac-018de8bf2efe)
+  )
+
+  (wire (pts (xy 109.22 152.2222) (xy 96.52 152.2222))
+    (stroke (width 0.254) (type default) (color 0 0 0 0))
+    (uuid 5580e290-0e69-4226-b623-7551e67cb1ca)
+  )
+  (wire (pts (xy 147.32 182.7022) (xy 142.24 182.7022))
+    (stroke (width 0.254) (type default) (color 0 0 0 0))
+    (uuid 6a278963-49c3-4413-acc5-3e098c242c24)
+  )
+  (wire (pts (xy 144.78 172.5422) (xy 147.32 172.5422))
+    (stroke (width 0.254) (type default) (color 0 0 0 0))
+    (uuid 6f01bab8-17fb-4b5b-9fa4-852ae7551869)
+  )
+  (polyline (pts (xy 363.22 289.3822) (xy 261.62 289.3822))
+    (stroke (width 0) (type solid) (color 0 0 0 0))
+    (uuid 80084017-be1f-4931-ad69-dd5ab6c93c48)
+  )
+  (polyline (pts (xy 261.62 274.1422) (xy 261.62 291.9222))
+    (stroke (width 0) (type solid) (color 0 0 0 0))
+    (uuid 88001322-ca87-4e9c-98c4-20f5b1a029d6)
+  )
+
+  (wire (pts (xy 142.24 182.7022) (xy 142.24 172.5422))
+    (stroke (width 0.254) (type default) (color 0 0 0 0))
+    (uuid 8969f04e-fc07-4449-9708-e6aff1d6891d)
+  )
+  (wire (pts (xy 142.24 172.5422) (xy 144.78 172.5422))
+    (stroke (width 0.254) (type default) (color 0 0 0 0))
+    (uuid 914b01d6-fee5-400a-b51c-ee951d954667)
+  )
+  (wire (pts (xy 81.28 154.7622) (xy 71.12 154.7622))
+    (stroke (width 0.254) (type default) (color 0 0 0 0))
+    (uuid b5ca4b34-758d-488f-a673-43332060e7c6)
+  )
+  (wire (pts (xy 81.28 152.2222) (xy 58.42 152.2222))
+    (stroke (width 0.254) (type default) (color 0 0 0 0))
+    (uuid b71c53bf-22be-4915-8f84-3b3392323b69)
+  )
+  (wire (pts (xy 147.32 177.6222) (xy 144.78 177.6222))
+    (stroke (width 0.254) (type default) (color 0 0 0 0))
+    (uuid c7dda82a-c08a-48c1-b55a-7001179bb0f8)
+  )
+  (wire (pts (xy 96.52 154.7622) (xy 119.38 154.7622))
+    (stroke (width 0.254) (type default) (color 0 0 0 0))
+    (uuid c9a34cc8-9e7b-485f-9745-3b0cba439e7b)
+  )
+  (polyline (pts (xy 332.74 274.1422) (xy 332.74 289.3822))
+    (stroke (width 0) (type solid) (color 0 0 0 0))
+    (uuid cc14d859-a34c-4b21-8f58-a28906b9a104)
+  )
+
+  (wire (pts (xy 144.78 177.6222) (xy 144.78 172.5422))
+    (stroke (width 0.254) (type default) (color 0 0 0 0))
+    (uuid d1dfc926-120f-46cb-8271-7b74c507043a)
+  )
+  (wire (pts (xy 180.34 192.8622) (xy 180.34 190.3222))
+    (stroke (width 0.254) (type default) (color 0 0 0 0))
+    (uuid d4866c10-3da2-45d4-9f83-28610d1689a8)
+  )
+  (polyline (pts (xy 306.07 285.5722) (xy 332.74 285.5722))
+    (stroke (width 0) (type solid) (color 0 0 0 0))
+    (uuid db98cbd1-bbd2-4f53-bd25-896cbf7c4362)
+  )
+  (polyline (pts (xy 388.62 274.1422) (xy 261.62 274.1422))
+    (stroke (width 0) (type solid) (color 0 0 0 0))
+    (uuid ea696c37-5482-4401-8af8-3e6e06a6d2fd)
+  )
+
+  (image (at 358.8445 281.5755) (scale 1.70426)
+    (uuid d41e2c0c-0ef7-418d-8b14-d21200446c82)
+    (data
+      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
+      RU5ErkJggg==
+    )
+  )
+
+  (text "${DRAWNBY}" (at 273.558 289.3822 180)
+    (effects (font (size 1.143 1.143)) (justify left bottom))
+    (uuid 0541831f-f2a6-4607-a596-8d1c8ce3ca4b)
+  )
+  (text "Project:" (at 263.398 285.8262 180)
+    (effects (font (size 1.397 1.397)) (justify left bottom))
+    (uuid 063499d6-fa11-432c-80f3-5688a0e3baf6)
+  )
+  (text "A3" (at 312.928 285.5722 180)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 1b376179-83bc-4017-9c66-9448360e0d3d)
+  )
+  (text "${##}" (at 321.31 289.3822 180)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 44e5439a-8a33-4c07-aa00-1828f2620715)
+  )
+  (text "Drawn by:" (at 263.398 289.3822 180)
+    (effects (font (size 1.143 1.143)) (justify left bottom))
+    (uuid 49ae09cf-a404-474c-94d8-184fa5fca9b1)
+  )
+  (text "${#}" (at 314.96 289.3822 180)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 50bf761d-c836-4cc9-a65f-5e8966dabb78)
+  )
+  (text "of" (at 318.77 289.3822 180)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 52278cd0-9b1c-4d96-be46-577c47021f3b)
+  )
+  (text "Rev.:" (at 318.008 285.5722 180)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 58a946e9-a627-4737-9648-b43f4e922c0a)
+  )
+  (text "${CURRENT_DATE}" (at 269.24 291.9222 180)
+    (effects (font (size 1.143 1.143)) (justify left bottom))
+    (uuid 63f74381-02b4-430a-842e-a9b7b8be88df)
+  )
+  (text "File:" (at 285.242 291.9222 180)
+    (effects (font (size 1.143 1.143)) (justify left bottom))
+    (uuid 8c83d5e3-7c68-4049-a62c-f74673ded9fd)
+  )
+  (text "${PROJEKTNAME}" (at 273.05 285.8262 180)
+    (effects (font (size 1.524 1.524)) (justify left bottom))
+    (uuid a6e70172-4595-4fe3-a72a-08e82171945e)
+  )
+  (text "Date:" (at 263.398 291.9222 180)
+    (effects (font (size 1.143 1.143)) (justify left bottom))
+    (uuid b0bdd4f9-c9af-4064-ba7e-eed1e776e7a1)
+  )
+  (text "Size:" (at 307.34 285.5722 180)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid bb52f33e-4eb0-4390-875c-a83e60cf37fa)
+  )
+  (text "${REVISION}" (at 324.104 285.8262 180)
+    (effects (font (size 1.524 1.524)) (justify left bottom))
+    (uuid d832d8a6-6acc-47d7-9439-622033b0efb0)
+  )
+  (text "Sheet" (at 307.34 289.3822 180)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid e02b0a4f-9e05-4a85-b662-b01f27565e78)
+  )
+  (text "${TITLE}" (at 263.398 280.2382 180)
+    (effects (font (size 2.032 2.032) bold italic) (justify left bottom))
+    (uuid fc1788b4-36f2-4c45-80bb-34965d7df59c)
+  )
+  (text "${FILENAME}" (at 289.814 291.9222 180)
+    (effects (font (size 1.143 1.143)) (justify left bottom))
+    (uuid fdff1721-0479-4dea-a52d-969f3120c9ec)
+  )
+
+  (label "SDA_1" (at 132.08 190.3222 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 42a79b90-8c5f-4477-a563-ab78a8368d8f)
+  )
+  (label "SCL_1" (at 58.42 152.2222 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 8556d36d-23e9-45a3-b0bb-2e3c6d91dbc7)
+  )
+  (label "SCL_1" (at 132.08 187.7822 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 9263ee93-7681-442e-ac4b-dfec010f9228)
+  )
+  (label "SDA_1" (at 119.38 154.7622 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid cd27b072-225a-4d4d-ac9a-084070b9cd31)
+  )
+
+  (symbol (lib_id "PressureSensor_PCB-altium-import:GND_PS_PCB") (at 180.34 192.8622 0) (unit 1)
+    (in_bom yes) (on_board yes)
+    (uuid 03e9e805-1c60-40d2-99de-83fdad852f76)
+    (property "Reference" "#PWR?" (id 0) (at 180.34 192.8622 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND_PS_PCB" (id 1) (at 180.34 196.6722 0))
+    (property "Footprint" "" (id 2) (at 180.34 192.8622 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 180.34 192.8622 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "" (uuid 6a66d988-5a05-443a-bac6-dd7f19fa2018))
+  )
+
+  (symbol (lib_id "PressureSensor_PCB-altium-import:1_CAP") (at 124.46 177.6222 0) (unit 1)
+    (in_bom yes) (on_board yes)
+    (uuid 504b7e49-7db4-4a2e-9ec4-35c7e6815fe0)
+    (property "Reference" "C1" (id 0) (at 129.286 177.3682 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Value" "" (id 1) (at 129.286 179.9082 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Footprint" "CAPC2013X140X50NL20T25" (id 2) (at 124.46 177.6222 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 124.46 177.6222 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "PART NUMBER" "08055C104K4Z2A" (id 4) (at 124.714 172.0342 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "MANUFACTURER" "AVX Interconnect / Elco" (id 5) (at 124.714 172.0342 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (pin "1" (uuid 7c6a0634-9e9d-4809-a560-4689861acac2))
+    (pin "2" (uuid 023cc4d8-cb1b-4fe4-87d5-9b475eb6775b))
+  )
+
+  (symbol (lib_id "PressureSensor_PCB-altium-import:0_12a5185c47872775e691a69d0eb4388") (at 147.32 172.5422 0) (unit 1)
+    (in_bom yes) (on_board yes)
+    (uuid 690c5ba8-e7e9-4c94-9812-49def6d6b693)
+    (property "Reference" "U1" (id 0) (at 152.4 170.0022 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Value" "" (id 1) (at 152.4 195.4022 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Footprint" "FP-MS580301BA01-00-MFG" (id 2) (at 147.32 172.5422 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 147.32 172.5422 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MANUFACTURER PART NUMBER" "MS580301BA01-00" (id 4) (at 146.812 170.0022 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "PORT STYLE" "No Port" (id 5) (at 146.812 170.0022 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "MIN SUPPLY VOLTAGE" "1.8V" (id 6) (at 146.812 170.0022 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "RESPONSE TIME" "8.22ms" (id 7) (at 146.812 170.0022 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "DEVICE CLASS L1" "Sensors" (id 8) (at 146.812 170.0022 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "MOUSER DESCRIPTION" "MS5803-01BA Series 3 V 1 to 130 kPa Miniature Variometer Module" (id 9) (at 146.812 170.0022 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "TEMPERATURE RANGE HIGH" "+85°C" (id 10) (at 146.812 170.0022 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "SENSOR OUTPUT" "I2C,SPI" (id 11) (at 146.812 170.0022 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "TEMPERATURE" "-40°C to +85°C" (id 12) (at 146.812 170.0022 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "CATEGORY" "IC" (id 13) (at 146.812 170.0022 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "DEVICE CLASS L3" "unset" (id 14) (at 146.812 170.0022 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "DEVICE CLASS L2" "Pressure Sensors" (id 15) (at 146.812 170.0022 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "ROHS" "TRUE" (id 16) (at 146.812 170.0022 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "COMPONENTLINK2DESCRIPTION" "Datasheet" (id 17) (at 146.812 170.0022 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "AUTOMOTIVE" "No" (id 18) (at 146.812 170.0022 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "TEMPERATURE RANGE LOW" "-40°C" (id 19) (at 146.812 170.0022 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "MAX SUPPLY VOLTAGE" "3.6V" (id 20) (at 146.812 170.0022 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "MANUFACTURER" "TE Connectivity" (id 21) (at 146.812 170.0022 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "STANDOFF HEIGHT" "0.1mm" (id 22) (at 146.812 170.0022 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "PACKAGE" "0" (id 23) (at 146.812 170.0022 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "LEAD FREE" "Yes" (id 24) (at 146.812 170.0022 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "OCTOPART" "https://octopart.com/ms580301ba01-00-te+connectivity-59208927" (id 25) (at 146.812 170.0022 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "HEIGHT" "3.33mm" (id 26) (at 146.812 170.0022 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "DIGIKEY DESCRIPTION" "MINIATURE ALTIMETER MODULE" (id 27) (at 146.812 170.0022 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "COMPONENTLINK2URL" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Data+Sheet%7FMS5803-01BA%7FB3%7Fpdf%7FEnglish%7FENG_DS_MS5803-01BA_B3.pdf%7FMS580301BA01-00" (id 28) (at 146.812 170.0022 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "OPERATING SUPPLY CURRENT" "0.9-12.5uA" (id 29) (at 146.812 170.0022 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (pin "1" (uuid 8a44e1b2-f1ce-40c5-8822-55f6b5f7599c))
+    (pin "2" (uuid 0b638643-3abb-4479-9ddb-780f502b0927))
+    (pin "3" (uuid 5a4f319b-2b8a-40b9-b14b-81e89ea6bd73))
+    (pin "4" (uuid 35a20eaf-1cb1-43ba-bbf2-1223183ffe73))
+    (pin "5" (uuid 4e40b520-99e4-4432-925a-c031b388d56f))
+    (pin "6" (uuid 6e755d57-e9bf-4aba-b8fc-f31547b7bd66))
+    (pin "7" (uuid 9927233c-f114-49ca-8d01-b9ab53a5f5f6))
+    (pin "8" (uuid 3d5e86eb-a581-4e52-a40e-c820fa24b6ae))
+  )
+
+  (symbol (lib_id "PressureSensor_PCB-altium-import:VCC_3V3_PS_PCB") (at 127 172.5422 180) (unit 1)
+    (in_bom yes) (on_board yes)
+    (uuid 6d00ea14-f0f1-483d-8c60-2479e4c3a0e6)
+    (property "Reference" "#PWR?" (id 0) (at 127 172.5422 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "VCC_3V3_PS_PCB" (id 1) (at 127 168.7322 0))
+    (property "Footprint" "" (id 2) (at 127 172.5422 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 127 172.5422 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "" (uuid b7d63356-a3e9-49a9-827b-df62292888e6))
+  )
+
+  (symbol (lib_id "PressureSensor_PCB-altium-import:GND_PS_PCB") (at 127 180.1622 0) (unit 1)
+    (in_bom yes) (on_board yes)
+    (uuid 85f51824-c692-4394-a3f7-518f6045e350)
+    (property "Reference" "#PWR?" (id 0) (at 127 180.1622 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND_PS_PCB" (id 1) (at 127 183.9722 0))
+    (property "Footprint" "" (id 2) (at 127 180.1622 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 127 180.1622 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "" (uuid 8e3855bb-b4d3-4bbc-b9fa-1e8fed5f5b24))
+  )
+
+  (symbol (lib_id "PressureSensor_PCB-altium-import:0_5-146130-1") (at 88.9 154.7622 0) (unit 1)
+    (in_bom yes) (on_board yes)
+    (uuid 8bc81f49-b056-424e-beb7-3842b11492b3)
+    (property "Reference" "J1" (id 0) (at 83.82 149.6822 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Value" "" (id 1) (at 83.82 159.8422 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Footprint" "C:_Users_amzethz_Documents_GitHub_smartwatersensor_SmartWaterSensor_SnapEDA_Library_5-146130-1.PcbLib_TE_5-146130-1" (id 2) (at 88.9 154.7622 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 88.9 154.7622 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "PRICE" "None" (id 4) (at 80.772 149.6822 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "MF" "{'manufacturer': u'TE Connectivity'}" (id 5) (at 80.772 149.6822 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "PACKAGE" "None" (id 6) (at 80.772 149.6822 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "AVAILABILITY" "Unavailable" (id 7) (at 80.772 149.6822 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "ALTIUM_VALUE" "*" (id 8) (at 80.772 149.6822 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "MP" "5-146130-1" (id 9) (at 80.772 149.6822 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (pin "1" (uuid 0af7b4d1-c59b-432e-83bc-6986592daa2e))
+    (pin "2" (uuid 75524514-9073-4b69-8bf8-dc4a5870a2e4))
+    (pin "3" (uuid 138e9994-ac93-4ca3-bcdf-8f8d7909c6e5))
+    (pin "4" (uuid 9665aff0-65ac-4cf9-9877-e9b8ea73bd9e))
+  )
+
+  (symbol (lib_id "PressureSensor_PCB-altium-import:GND_PS_PCB") (at 71.12 154.7622 0) (unit 1)
+    (in_bom yes) (on_board yes)
+    (uuid d1a49455-4815-4b00-9748-2225b92e6f30)
+    (property "Reference" "#PWR?" (id 0) (at 71.12 154.7622 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND_PS_PCB" (id 1) (at 71.12 158.5722 0))
+    (property "Footprint" "" (id 2) (at 71.12 154.7622 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 71.12 154.7622 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "" (uuid 01d4e72f-ab86-44c4-8bf1-c84458d1a909))
+  )
+
+  (symbol (lib_id "PressureSensor_PCB-altium-import:VCC_3V3_PS_PCB") (at 109.22 152.2222 180) (unit 1)
+    (in_bom yes) (on_board yes)
+    (uuid eb43e9c7-96c9-4029-8b1f-86d9168b5abd)
+    (property "Reference" "#PWR?" (id 0) (at 109.22 152.2222 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "VCC_3V3_PS_PCB" (id 1) (at 109.22 148.4122 0))
+    (property "Footprint" "" (id 2) (at 109.22 152.2222 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 109.22 152.2222 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "" (uuid 5b962086-5a49-491b-b47a-6bee59c9bfee))
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+
+  (symbol_instances
+    (path "/03e9e805-1c60-40d2-99de-83fdad852f76"
+      (reference "#PWR?") (unit 1) (value "GND_PS_PCB") (footprint "")
+    )
+    (path "/6d00ea14-f0f1-483d-8c60-2479e4c3a0e6"
+      (reference "#PWR?") (unit 1) (value "VCC_3V3_PS_PCB") (footprint "")
+    )
+    (path "/85f51824-c692-4394-a3f7-518f6045e350"
+      (reference "#PWR?") (unit 1) (value "GND_PS_PCB") (footprint "")
+    )
+    (path "/d1a49455-4815-4b00-9748-2225b92e6f30"
+      (reference "#PWR?") (unit 1) (value "GND_PS_PCB") (footprint "")
+    )
+    (path "/eb43e9c7-96c9-4029-8b1f-86d9168b5abd"
+      (reference "#PWR?") (unit 1) (value "VCC_3V3_PS_PCB") (footprint "")
+    )
+    (path "/504b7e49-7db4-4a2e-9ec4-35c7e6815fe0"
+      (reference "C1") (unit 1) (value "100nF") (footprint "CAPC2013X140X50NL20T25")
+    )
+    (path "/8bc81f49-b056-424e-beb7-3842b11492b3"
+      (reference "J1") (unit 1) (value "5-146130-1") (footprint "C:_Users_amzethz_Documents_GitHub_smartwatersensor_SmartWaterSensor_SnapEDA_Library_5-146130-1.PcbLib_TE_5-146130-1")
+    )
+    (path "/690c5ba8-e7e9-4c94-9812-49def6d6b693"
+      (reference "U1") (unit 1) (value "MS580305BA01-00") (footprint "FP-MS580301BA01-00-MFG")
+    )
+  )
+)
