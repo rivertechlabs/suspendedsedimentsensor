@@ -26,7 +26,7 @@ This repo contains several items to build the current prototype of the open-sour
 ## Code
 Before you begin, you need the ESP-IDF installed on your computer. Please visit the [Espressif website](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/get-started/) for more information on installation.
 
-The current code takes 100 frequency measurements and enters deep-sleep for 1min, this can of course be changed. Also, the code isn't beautiful and I apologize but it will get better with time.
+There are two codes in the Code folder: main.ino and set_time.ino. Please follow the instructions in set time.ino about changing the date in the program. After the program has flashed, every time the Arduino restarts (disconnect and reconnect to power) it will restart the RTC time to the original compile time of the set time.ino program. To mitigate this issue, the next program, main.ino, can be immediately flashed without disconnecting power or set time.ino can be re-flashed after commenting-out line 79 (“setPCF85263();”). Follow by flashing main.ino onto the Arduino. Please note that additional libraries may need to be downloaded and added to your library (e.g. the MS5803-05 external library [32]). The main.ino program was written to take a measurement every hour (one measurement is an average of 15 measurements) to conserve battery, but this can be changed in the code if you require higher temporal resolution to capture larger variability e.g. from flushing of sediment from a dam.
 
 ## CAD files
 
