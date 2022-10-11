@@ -5,7 +5,7 @@ This sensor is prototype 3.0. Previous prototype (2.0) is found in this [repo](h
 - :sleeping: Low-power [Arduino MRK WAN 1310](https://store-usa.arduino.cc/products/arduino-mkr-wan-1310) microcontroller
 - :stuck_out_tongue_winking_eye: Entirely 3D printed design, so no need to beg a technician for help
 - :racehorse: Longer battery life
-- :dash: Temperature and pressure sensor
+- :dash: Turbidity, temperature and pressure sensor
 - :recycle: Programed with Arduino IDE
 - :dancers: Custom printed circuit board (PCB) as an Arduino shield for an easier and cleaner assembly with a more durable design 
 
@@ -18,10 +18,9 @@ This repo is dedicated to the open-source turbidity sensor. More info can be fou
 
 This repo contains several items to build the current prototype of the open-source turbidity sensor including:
 - The code needed to upload to the microcontroller
-- CAD files
 - 3D printing files
 - PCB files
-- Hookup schematics, examples, and photos
+- CAD files
 
 ## Code
 Before you begin, you need the ESP-IDF installed on your computer. Please visit the [Espressif website](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/get-started/) for more information on installation.
