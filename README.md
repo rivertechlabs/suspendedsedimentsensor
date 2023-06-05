@@ -11,7 +11,7 @@ This sensor is prototype 3.0. Previous prototype (2.0) is found in this [repo](h
 - :stuck_out_tongue_winking_eye: Entirely 3D printed design, so no need to beg a technician for help
 - :racehorse: Longer battery life
 - :dash: Turbidity, temperature and pressure sensor
-- :recycle: Programed with Arduino IDE
+- :recycle: Programmed with Arduino IDE
 - :dancers: Custom printed circuit board (PCB) as an Arduino shield for an easier and cleaner assembly with a more durable design 
 
 -----------------------------------------
