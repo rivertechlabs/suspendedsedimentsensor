@@ -1,7 +1,7 @@
 # :ocean:Ötz-T: suspended sediment sensor
 ## News!
 
-**This sensor was published in HardwareX! Read an [Ötz-T: 3D-printed open-source turbidity sensor with Arduino shield for suspended sediment monitoring](https://linkinghub.elsevier.com/retrieve/pii/S2468067223000020).**
+**This sensor was published in HardwareX! Read [Ötz-T: 3D-printed open-source turbidity sensor with Arduino shield for suspended sediment monitoring](https://linkinghub.elsevier.com/retrieve/pii/S2468067223000020).**
 
 -----------------------------------------
 This sensor is prototype 3.0. Previous prototype (2.0) is found in this [repo](https://github.com/rivertechlabs/turbiditysensor) (new repo necause I consider the two versions different enough).
