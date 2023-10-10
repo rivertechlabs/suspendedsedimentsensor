@@ -1,10 +1,14 @@
 # :ocean:Ötz-T: suspended sediment sensor
+
+## A note on versions:
+
+**This sensor is prototype 3.0 (or "version Ötz-T"). The previous prototype 2.0 (or "first version") is found in this [repo](https://github.com/rivertechlabs/turbiditysensor) (new repo because I consider the two versions different enough).**
+
 ## News!
 
 **This sensor was published in HardwareX! Read [Ötz-T: 3D-printed open-source turbidity sensor with Arduino shield for suspended sediment monitoring](https://linkinghub.elsevier.com/retrieve/pii/S2468067223000020).**
 
 -----------------------------------------
-This sensor is prototype 3.0. Previous prototype (2.0) is found in this [repo](https://github.com/rivertechlabs/turbiditysensor) (new repo necause I consider the two versions different enough).
 
 **Improvements on this version:**
 - :sleeping: Low-power [Arduino MRK WAN 1310](https://store-usa.arduino.cc/products/arduino-mkr-wan-1310) microcontroller
